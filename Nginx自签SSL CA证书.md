@@ -37,5 +37,5 @@ openssl rsa -in server.key -out unserver.key
 重启nginx(systemctl restart nginx)即可
 
 
-# 至此，自签证书创建完毕，之后需要在nginx的conf文件对证书进行配置
+至此，自签证书创建完毕，之后需要在nginx的conf文件对证书进行配置
 

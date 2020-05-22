@@ -12,3 +12,5 @@ systemctl restart nginx.service
 
 2."ssl_stapling" ignored, no OCSP responder URL in the certificate
 
+需要服务器的根证书ca.pem
+

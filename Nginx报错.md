@@ -1,4 +1,4 @@
-# 1.PID file /../nginx.pid not readable (yet?) after start: No such file or directory
+1.PID file /../nginx.pid not readable (yet?) after start: No such file or directory
 
 在/usr/lib/systemd/system/nginx.service或/lib/systemd/system/nginx.service
 PIDFile=/../nginx.pid下一行增加
@@ -10,5 +10,5 @@ ExecStartPost=/bin/sleep 0.1
 #重启服务
 systemctl restart nginx.service
 
-# 2."ssl_stapling" ignored, no OCSP responder URL in the certificate
+2."ssl_stapling" ignored, no OCSP responder URL in the certificate
 

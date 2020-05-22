@@ -1,4 +1,4 @@
-1.生成秘钥key,运行:
+1.生成秘钥key,运行
 
 openssl genrsa -des3 -out server.key 2048
 输入两次密码，如1234

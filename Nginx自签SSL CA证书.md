@@ -1,3 +1,5 @@
+# 也可以使用cloudflare等提供的证书，不需要自己生成
+
 1.生成秘钥key,运行
 
 openssl genrsa -des3 -out server.key 2048

@@ -23,10 +23,10 @@ cd letsencrypt
 
 获取到的 Let's Encrypt 证书保存在 /etc/letsencrypt/live/example.org/ 目录下
 
-cert.pem  - Apache服务器端证书
-chain.pem  - Apache根证书和中继证书
-fullchain.pem  - Nginx所需要ssl_certificate文件
-privkey.pem - 安全证书KEY文件
+    cert.pem  - Apache服务器端证书
+    chain.pem  - Apache根证书和中继证书
+    fullchain.pem  - Nginx所需要ssl_certificate文件
+    privkey.pem - 安全证书KEY文件
 
 解决Let's Encrypt免费SSL证书有效期问题
 Let's Encrypt证书是有效期90天的，需要我们自己手工更新续期

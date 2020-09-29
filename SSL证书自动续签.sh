@@ -29,8 +29,8 @@ systemctl start nginx
 
 # 3 添加定时任务
 crontab -e
-@montly /usr/local/sbin/letsencrypt-renew
-0 0 1 1/1 ?  /usr/local/sbin/letsencrypt-renew
+@monthly /usr/local/sbin/letsencrypt-renew
+@weekly /usr/local/sbin/letsencrypt-renew
 
 # ** 注意 **
 # 需要注意的是nginx里设置的证书位置必须和certbot自动续费的证书位置一样

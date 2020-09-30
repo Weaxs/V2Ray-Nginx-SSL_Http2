@@ -1,5 +1,5 @@
-frompath = "/etc/letsencrypt/live/usa.weaxsey.org"
-topath = "/home/centos/docker_compose/nginx/certs"
+frompath = "/etc/letsencrypt/live/..."
+topath = "..."
 
 cp ${frompath}/fullchain.pem ${topath}/fullchain.pem
 cp ${frompath}/privkey.pem ${topath}/privkey.pem

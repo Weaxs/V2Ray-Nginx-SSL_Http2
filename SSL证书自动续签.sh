@@ -1,5 +1,13 @@
 https://www.cloudsigma.com/how-to-automate-letsencrypt-ssl-certificate-renewals-for-nginx/
 
+# 0. 安装前环境
+sudo yum -y install yum-utils
+
+sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
+sudo yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional
+
+
 # 1 安装Certbot
 # CentOS7 / RHEL7
 yum install certbot

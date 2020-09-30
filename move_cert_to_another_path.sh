@@ -1,7 +1,7 @@
-frompath = "/etc/letsencrypt/live/..."
-topath = "..."
+export from_path="/etc/letsencrypt/live/.."
+export to_path=".."
 
-cp ${frompath}/fullchain.pem ${topath}/fullchain.pem
-cp ${frompath}/privkey.pem ${topath}/privkey.pem
-cp ${frompath}/cert.pem ${topath}/cert.pem
-cp ${frompath}/chain.pem ${topath}/chain.pem
+cp $from_path/fullchain.pem $to_path/fullchain.pem
+cp $from_path/privkey.pem $to_path/privkey.pem
+cp $from_path/cert.pem $to_path/cert.pem
+cp $from_path/chain.pem $to_path/chain.pem
